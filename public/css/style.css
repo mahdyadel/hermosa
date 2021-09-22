@@ -1,0 +1,179 @@
+
+div#m_header_nav {
+    background: white;
+}
+
+.m-brand {
+    background: white;
+}
+
+div#m_ver_menu {
+    background: white;
+}
+
+.m-aside-left.m-aside-left--skin-dark {
+    background-color: #ffffff;
+}
+
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link,
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item:hover, .m-topbar .m-topbar__nav.m-nav>.m-nav__item.m-dropdown--open
+{
+    background: #e8018d;
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link .m-menu__link-text,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover>.m-menu__link .m-menu__link-icon,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link .m-menu__link-icon {
+    color: #ffffff;
+}
+
+table{text-align: center !important;}
+
+.m-link:hover:after 
+{
+    border-bottom: 1px solid #e8018d;
+}
+
+
+
+.m-link,
+.m-link:hover,
+.btn.m-btn--label-brand
+{
+    color: #e8018d !important;
+}
+
+.col-7 {
+    display: flex;
+    align-items: center;
+}
+
+.col-form-label {
+    font-weight: 500;
+}
+
+.btn-brand,
+.btn-brand:hover,
+.btn-brand:active,
+.m-brand .m-brand__tools .m-brand__toggler.m-brand__toggler--active span,
+.m-brand .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::before, 
+.m-brand .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::after,
+.m-brand .m-brand__tools .m-brand__toggler:hover span,
+.m-brand .m-brand__tools .m-brand__toggler:hover span::before, 
+.m-brand .m-brand__tools .m-brand__toggler:hover span::after,
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__heading, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav>.m-menu__item.m-menu__item--active>.m-menu__link
+{
+    background-color : #e8018d !important;
+}
+
+.btn-brand,
+.btn-brand:hover,
+.btn-brand:active,
+.m-checkbox.m-checkbox--focus>input:checked~span,
+.m-checkbox.m-checkbox--focus>input:checked ~ span,
+.m-checkbox.m-checkbox--focus>span:after,
+.m-checkbox--focus>span:after
+{
+    border: 1px solid #e8018d !important;
+}
+
+
+/** Start Navbar **/
+.m-brand .m-brand__logo .m-brand__logo-wrapper {height:45px; width:45px;}
+/** End Navbar **/
+
+
+/** start Pagination **/
+.m--align-center .pagination {align-content:center; justify-content:center; margin:0;}
+.page-item.active .page-link {background-color:#e8018d; border-color:#e8018d;}
+.page-link {color:#e8018d;}
+/** end Pagination **/
+
+
+/** Start Login **/
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control:focus::-webkit-input-placeholder{color: #e8018d;}
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control:focus::-moz-placeholder{color: #e8018d;}
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control:focus:-ms-input-placeholder{color: #e8018d;}
+.m-login.m-login--1 .m-login__wrapper .m-login__logo {margin: 0 auto 2rem auto;}
+.m-login.m-login--1 .m-login__wrapper {padding: 2rem;}
+.m-login.m-login--1 .m-login__aside {margin:auto;}
+.m-login__desc {margin-bottom:1.5rem;}
+.m-login.m-login--1 .m-login__wrapper .m-login__form {margin-top: 3rem;}
+/** End Login **/
+
+
+.invalid-feedback {display:block;}
+.form-control.focus, .form-control:focus {border-color: #d8d8d8;}
+.m-checkbox>span:after {
+    top: 50%;
+    right: 50%;
+    margin-right: -3px;
+    margin-top: -6px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 2px 2px 0px !important;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(45deg);
+}
+
+
+.register-form .form-control {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #ebedf2;
+    padding: 1rem 0;
+    margin-top: 0.1rem;
+}
+
+.register-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register-form-container {
+    padding: 30px;
+}
+
+.switch-language {
+    display: inline-block;
+}
+
+.switch-language button {
+    background: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.alert {
+    border-radius: 4px;
+}
+
+.m-portlet {
+    border-radius: 8px;
+}
+
+select.form-control {
+    border-radius: 4px;
+}
+
+option.mainService {
+    background: #e6e6e6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+option.subService {
+    background: #f7f7f7;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px 0 5px 10px;
+}
